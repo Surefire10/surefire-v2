@@ -69,9 +69,9 @@ export function Builds() {
                         }}
                       >
                         {project.images &&
-                          project.images.map((image) => {
+                          project.images.map((image, index) => {
                             return (
-                              <SwiperSlide key={image}>
+                              <SwiperSlide key={index}>
                                 <div className="w-[380px] md:[490px] lg:w-[600px] rounded-lg  ">
                                   <Image
                                     src={image}
