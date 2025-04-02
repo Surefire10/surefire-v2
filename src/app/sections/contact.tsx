@@ -31,7 +31,11 @@ export function Contact() {
         <div className="relative flex items-end justify-end gap-10 text-sm md:text-lg ">
           <p className="absolute left-0 text-xs">Made By Yara ❤️</p>
 
-          <Link href="/resume.pdf" target="_blank">
+          <Link
+            className="hover:text-red-600 hover:duration-300"
+            href="/resume.pdf"
+            target="_blank"
+          >
             ✶Resume✶
           </Link>
           <Link
