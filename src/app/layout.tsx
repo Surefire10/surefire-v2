@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import opengraph from "../../public/images/meta/opengraph.png";
 import { Header } from "./components/ui/header";
 import { Gradient } from "./components/ui/gradient";
 
@@ -17,9 +16,9 @@ export const metadata: Metadata = {
     siteName: "Yara's website ;(",
     images: [
       {
-        url: opengraph.src,
-        width: opengraph.width,
-        height: opengraph.height,
+        url: "../../public/images/meta/opengraph.png",
+        width: 1200,
+        height: 630,
         alt: "Yara's website ;(",
       },
     ],
