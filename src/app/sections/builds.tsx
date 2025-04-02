@@ -74,7 +74,7 @@ export function Builds() {
                               <SwiperSlide key={image}>
                                 <div className="w-[380px] md:[490px] lg:w-[600px] rounded-lg  ">
                                   <Image
-                                    src={"/images/" + image}
+                                    src={"/images/meta/" + image}
                                     width={1000}
                                     height={1000}
                                     className="max-w-full rounded-lg"
