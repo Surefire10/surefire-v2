@@ -1,10 +1,10 @@
+/* eslint-disable @next/next/no-img-element */
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { content } from "../../../public/content/content";
-import Image from "next/image";
 import { Blur } from "../components/ui/blur";
 
 export function Builds() {
@@ -73,7 +73,7 @@ export function Builds() {
                             return (
                               <SwiperSlide key={image}>
                                 <div className="w-[380px] md:[490px] lg:w-[600px] rounded-lg  ">
-                                  <Image
+                                  <img
                                     src={"/images/" + image}
                                     width={1000}
                                     height={1000}
