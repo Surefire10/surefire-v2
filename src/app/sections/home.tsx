@@ -14,7 +14,7 @@ export function Home() {
       <Blur className="hidden lg:block" top={250} left={-600} />
       <Blur className="block lg:hidden" top={180} left={-20} />
       <div className="flex flex-col gap-5 lg:gap-0 lg:flex-row justify-between lg:items-center pt-16">
-        <div className="text-7xl lg:text-8xl uppercase font-light w-3/4 lg:basis-[20%] ">
+        <div className="text-7xl lg:text-[85px] uppercase font-light w-3/4 lg:basis-[20%] ">
           <p>I build neat stuff for the internet</p>
         </div>
         <motion.div
@@ -27,7 +27,7 @@ export function Home() {
             transition={{ repeat: Infinity, duration: 200, ease: "linear" }}
             className="relative -left-10 xl:-left-20 w-[300px] h-[300px] xl:w-[450px] xl:h-[450px]"
           >
-            <div className="absolute  w-[300px] h-[300px] xl:w-[400px] xl:h-[400px] " />
+            <div className="absolute  w-[300px] h-[300px] xl:w-[380px] xl:h-[380px] " />
             <Image
               src={triangle}
               alt="tri"
