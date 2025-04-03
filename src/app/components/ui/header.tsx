@@ -16,7 +16,7 @@ export function Header() {
   }, []);
 
   return (
-    <div className="fixed top-0 left-0 z-[2] native-blur-card  flex justify-between items-center w-full p-5">
+    <div className="fixed top-0 left-0 z-[2] native-blur-card  flex justify-between items-center w-full px-5 py-2.5">
       <div className="flex gap-1 font-extralight text-md md:text-2xl group hover:cursor-default ">
         <span className="group-hover:opacity-60 opacity-100 duration-200">
           Yara
