@@ -3,7 +3,7 @@ import { Blur } from "../components/ui/blur";
 export function About() {
   return (
     <section
-      className="flex flex-col w-full items-center justify-center lg:gap-3 mobile-container lg:container lg:pt-28"
+      className="flex flex-col w-full items-center justify-center lg:gap-3 mobile-container lg:container lg:pt-20"
       id="about"
     >
       <Blur className="hidden lg:block" top={400} left={200} />
@@ -22,21 +22,30 @@ export function About() {
         <span className="flex w-full">✶ Technologies ✶</span>
       </div>
       <div className="w-full flex  items-center lg:justify-between lg:gap-16 ">
-        <div className="flex flex-col font-thin w-full h-full">
+        <div className="flex font-thin w-full h-full gap-5 mt-2 ">
           <div className="flex gap-10">
             <div className="text-sm lg:text-base">
               <p>CRYPTICWEB3, NETHERLANDS/DUBAI (REMOTE)</p>
-              <p>JAN 2024-NOW</p>
+              <p>JANUARY 2024-NOW</p>
               <p>JUNIOR FULL STACK DEVELOPER.</p>
             </div>
           </div>
+          <div className="flex gap-10">
+            <div className="text-sm lg:text-base">
+              <p>SELF-EMPLOYED</p>
+              <p>JUNE 2023-DECEMBER 2023 </p>
+              <p>FRONTEND DEVELOPER.</p>
+            </div>
+          </div>
         </div>
-        <div className="flex flex-col p-2  font-thin w-full">
-          <ul className="flex flex-col lg:flex-row -mt-2  lg:gap-10 text-sm lg:text-base ">
+        <div className="flex flex-col py-2  font-thin w-full">
+          <ul className="flex flex-col lg:flex-row -mt-10  lg:gap-3 text-sm lg:text-base ">
             <li>TYPESCRIPT</li>
+            <li>JAVA</li>
             <li>SQL</li>
-            <li>NEXT JS</li>
-            <li>NEST JS</li>
+            <li>NEXT.JS</li>
+            <li>NEST.JS</li>
+            <li>SPRING BOOT</li>
             <li>TAILWIND CSS</li>
           </ul>
         </div>

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Header } from "./components/ui/header";
 import { Gradient } from "./components/ui/gradient";
+import { Footer } from "./components/ui/footer";
 
 export const metadata: Metadata = {
   title: "Yara Khairat | Web-centric Software Developer",
@@ -39,6 +40,7 @@ export default function RootLayout({
           <Header />
         </div>
         {children}
+        <Footer />
       </body>
     </html>
   );
