@@ -15,8 +15,8 @@
 }
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #171717;
+  --foreground: #ffffff;
   --border: 214.3 31.8% 91.4%;
   --primary: #b91b13;
 }
@@ -26,12 +26,6 @@
   src: url("./fonts/Manrope.ttf") format("truetype");
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 html {
   scroll-behavior: smooth;
 }

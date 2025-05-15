@@ -13,8 +13,8 @@ export function About() {
         <p className="text-2xl lg:text-3xl  lg:font-extralight">
           A Web-centric software developer, passionate problem-solver, and
           lifelong learning advocate.
-          {/* <br className="lg:hidden" /> */}
-          <span className="text-red-700  ml-2">Fueled by curiosity.</span>
+          <br className="lg:hidden" />
+          <span className="text-red-700">Fueled by curiosity.</span>
         </p>
       </div>
       <div className="w-full flex flex-col lg:flex-row  items-center lg:justify-between gap-10 lg:gap-16 ">
