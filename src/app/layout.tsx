@@ -32,6 +32,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta name="apple-mobile-web-app-title" content="Surefire10" />
+      </head>
       <body className="font-manrope relative">
         <Gradient className="bg-gradient-to-tr" />
         <Gradient className="bg-gradient-to-bl" />
