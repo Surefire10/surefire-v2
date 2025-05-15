@@ -13,13 +13,10 @@ export function Builds() {
       className="flex flex-col w-full items-center justify-center gap-3 mobile-container lg:container lg:pt-28"
       id="builds"
     >
-      <p className="text-2xl w-full font-light">
+      <p className="text-2xl lg:text-3xl  lg:font-extralight">
         I&apos;ve crafted websites, developed services, built useful tools, and
         messed with tiny little side projects.
-        <br className="" />
-        <span className="text-red-700 font-normal text-lg lg:ml-1 lg:text-2xl">
-          Take a look down below.
-        </span>
+        <span className="text-red-700  ml-1">Take a look down below.</span>
       </p>
       <div className="flex w-full h-[600px] items-center mt-10 lg:-mt-20">
         <Swiper

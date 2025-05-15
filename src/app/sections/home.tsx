@@ -8,7 +8,7 @@ import triangle from "../../../public/images/meta/art.jpg";
 export function Home() {
   return (
     <section
-      className="relative flex flex-col gap-6 lg:gap-0  items-center justify-center mobile-container lg:container mt-24 lg:mt-10 "
+      className="relative flex flex-col gap-6 lg:gap-0  items-center justify-center mobile-container lg:container mt-24 lg:mt-5 "
       id="home"
     >
       <Blur className="hidden lg:block" top={250} left={-600} />
