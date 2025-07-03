@@ -32,8 +32,15 @@ export function Header() {
         <div className="flex gap-2 text-sm">
           <span>Socials |</span>
           <div className="flex gap-1 md:gap-2 opacity-60">
-            <Link href="https://www.linkedin.com/in/yarakhairat">Li</Link>
-            <Link href="https://github.com/Surefire10">Gh</Link>
+            <Link
+              href="https://www.linkedin.com/in/yarakhairat"
+              target="_blank"
+            >
+              Li
+            </Link>
+            <Link href="https://github.com/Surefire10" target="_blank">
+              Gh
+            </Link>
           </div>
         </div>
         <div className="flex gap-2 text-sm font-semibold">
